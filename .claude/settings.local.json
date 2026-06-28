@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(echo \"exit: $?\")"
+      "Bash(echo \"exit: $?\")",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "mcp__Claude_in_Chrome__computer",
+      "mcp__Claude_in_Chrome__find",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__javascript_tool",
+      "Bash(curl -s --max-time 70 https://instagram-claude-bot-r4km.onrender.com/)",
+      "Bash(curl -s 'https://graph.instagram.com/v21.0/me/conversations?platform=instagram&fields=participants,updated_time&access_token=IGAAiku9poLZBtBZAFlZATUYzNzhrVXNYS1FfQnpNQW5NV2JOTnluUWtDTGFKamh0QkxKbGtRU3hmbEJrLTlrazBlU2N4Wnk3VVpEZAGp5d3FuVWNHNm41bjZAmOFlpemoxa2RUeURVUHI2V0RFem92RURVbkxKUndjd0h6UlJ5RUtVNAZDZD')",
+      "Bash(/opt/homebrew/bin/node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(d\\);console.log\\('qtd conversas:',\\(j.data||[]\\).length\\);console.log\\(JSON.stringify\\(j.data||j\\).slice\\(0,400\\)\\)}catch\\(e\\){console.log\\(d.slice\\(0,300\\)\\)}}\\)\")",
+      "Bash(git add *)",
+      "Bash(git -c user.email=\"junio52a@gmail.com\" -c user.name=\"Junio Cesar\" commit -q -m \"Adiciona STATUS.md, guia de App Review e ícone do app\")",
+      "Bash(git push *)"
     ]
   }
 }
